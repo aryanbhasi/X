@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is Form Tutorial</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+             <input type="text" name="myname" id="name">  <br>
+        </div>
+     <br>
+     <label for="Role">Role</label>
+       <div>
+        <input type="text" name="My Role" id="Role">
+    </div>
+    <br>
+    <div>
+        Email: <input type="email" name="My Email">
+    </div>
+    <br>
+    <div>
+        Date <input type="date" name="MyDate">
+    </div>
+    <br>
+    <div>
+        Bonus: <input type="number" name="Bonus">
+    </div>
+    <br>
+    <div>
+        Are you Eligible: <input type="Checkbox" name="Eligibility">
+    </div>
+    <br>
+    <div>
+        Gender: Male<input type="radio" name="Gender"> Female <input type="radio" name="Gender"> Other<input type="radio" name="Gender">
+    </div>
+    <br>
+    <div>
+        Write About Yourself: <br><textarea name="MyText" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <label for="Expected Annual Income"> Expected Annual Income</label>
+    <select name="Annual Income" id="Expected Annual Income">
+        <option value="$10,000-$30,000">$10,000-$30,000</option>
+        <option value="$30,000-$50,000">$30,000-$50,000</option>
+        <option value="$50,000-$70,000">$50,000-$70,000</option>
+        <option value="$70,000-$100,000" selected>$70,000-$100,000</option>
+        <option value="$100,000-130,000">$100,000-130,000</option>
+        <option value="$130,000-180,000">$130,000-180,000</option>
+        <option value="$180,000-250,000">$180,000-250,000</option>
+    </select>
+    <br>
+    <br>
+    <div>
+       Submit <input type="submit" name="Submit Now"> Reset <input type="reset" name="Submit Now">
+        </div>
+    </form>
+</body>
+</html>
